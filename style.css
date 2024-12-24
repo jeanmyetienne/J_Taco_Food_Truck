@@ -1,0 +1,46 @@
+body { 
+min-height: 100vh;
+max-width: 800px;
+margin: 0 auto;
+padding: 1rem;
+background-color: white;
+border-left: 1px solid #333;
+border-right: 1px solid #333;
+}
+
+#HomeSection{ 
+    background-image: url(Img/homebackground.jpg);
+    background-size: cover;
+}
+header { 
+    background-color: white;
+}
+div { 
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+#Aboutsection { 
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#Aboutsection p { 
+    margin: 10;
+}
+
+ul { 
+    list-style: none;
+}
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+footer { 
+    background-color: whitesmoke;
+    text-align: center;
+}
