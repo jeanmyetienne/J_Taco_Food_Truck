@@ -1,11 +1,15 @@
 body { 
-min-height: 100vh;
-max-width: 800px;
+/* min-height: 100vh;
+max-width: 800px; */
 margin: 0 auto;
 padding: 1rem;
 background-color: white;
 border-left: 1px solid #333;
 border-right: 1px solid #333;
+}
+
+h1, h2, h3 { 
+    text-align: center;
 }
 
 #HomeSection{ 
@@ -34,6 +38,10 @@ div {
 ul { 
     list-style: none;
 }
+table { 
+    background-color: whitesmoke;
+    padding: 25px;
+}
 th, td, caption {
     border: 1px solid #333;
     font-family: 'Courier New', Courier, monospace;
@@ -42,5 +50,8 @@ th, td, caption {
 }
 footer { 
     background-color: whitesmoke;
+    text-align: center;
+}
+tfoot { 
     text-align: center;
 }
