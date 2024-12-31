@@ -27,6 +27,10 @@ div {
     margin-top: 300px;
     margin-left: 300px;
 }
+#details { 
+align-items: center;
+}
+
 #Aboutsection { 
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
