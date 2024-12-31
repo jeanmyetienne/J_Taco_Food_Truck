@@ -37,18 +37,26 @@ div {
     margin: 10;
 }
 nav { 
-    margin: 10;
-    padding: 10;
-    background-color: whitesmoke;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
 
 ul { 
     list-style: none;
+    display: flex;
 } 
 li { 
-    padding: 10;
-    margin: 10;
+    margin: 0 15px;
 }
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
 table { 
     background-color: whitesmoke;
     padding: 25px;
