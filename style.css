@@ -4,6 +4,7 @@ body {
 
 margin: 0 auto;
 padding: 1rem; 
+text-align: center;
 background-color: white;
 border-left: 1px solid #333;
 border-right: 1px solid #333;
@@ -62,6 +63,7 @@ ul li a {
   }
 table { 
     background-color: whitesmoke;
+    align-items: center;
     padding: 25px;
 }
 th, td, caption {
