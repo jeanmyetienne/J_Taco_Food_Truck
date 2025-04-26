@@ -1,7 +1,6 @@
 
 
 body { 
-
 margin: 0 auto;
 padding: 1rem; 
 text-align: center;
@@ -31,7 +30,9 @@ div {
 #details { 
 align-items: center;
 }
-
+#items { 
+margin: 10px 5px 20px 10px;
+}
 #Aboutsection { 
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
